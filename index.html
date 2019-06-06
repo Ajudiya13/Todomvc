@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Todo</title>
+	<link href="./style.css" rel="stylesheet">
+</head>
+<body>
+<div class="header top_0 margin-left_auto margin-right_auto text-align_center width_60rem">todos</div>
+
+<div class="initial-container margin-left_auto margin-right_auto width_60rem display_flex height_6rem background-color_white border_solid_1px_ededed">
+	<div class="initial-container__all-selector-container">
+		<h1 class="initial-container__all-selector margin_0 width_100percent height_100percent vertical-align_middle text-align_center line-height_6rem ">&#10095;</h1>
+	</div>
+
+	<div class="initial-container_input-todo-container top_0 bottom_0 left_0 right_0 padding_0">
+		<input type="text" placeholder="What needs to be done?" class="initial-container_input-todo top_0 bottom_0 left_0 right_0 width_100percent height_100percent font-size_2pt4rem">
+	</div>
+	
+</div>
+
+<div class="list-todo top_0"></div>
+
+<div class="information-displayer margin-left_auto margin-right_auto top_0 width_60rem background-color_white border_solid_1px_ededed border-top_none display_none">
+	<div class="number-of-items text-align_center vertical-align_middle color_alfa0pt5"></div>
+	<div class="display-handler">
+		<ul class="text-align_center top_0 margin_0">
+			<li class="all-displayer isClick color_alfa0pt5">All</li>
+			<li class="active-displayer color_alfa0pt5">Active</li>
+			<li class="completed-displayer color_alfa0pt5">Completed</li>
+		</ul>
+	</div>
+	<div class="clear-completed text-align_center vertical-align_middle color_alfa0pt5 display_none">Clear Completed</div>
+</div>
+
+
+<div class="todo-readme margin-left_auto margin-right_auto width_60rem text-align_center vertical-align_middle color_alfa0pt5">Double-click to edit a todo</div>
+</body>
+<script src="script.js"></script>
+<script src="view.js"></script>
+</html>
